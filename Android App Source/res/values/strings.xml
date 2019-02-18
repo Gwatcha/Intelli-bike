@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IntelliBike</string>
+    <string name="title_activity_maps">IntelliBike</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="options">Options</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="title_activity_main">IntelliBike</string>
+    <string name="startLocation">STARTLOCATION</string>
+    <string name="endLocation">ENDLOCATION</string>
+    <string name="end_ride">End Ride</string>
+    <string name="pause_ride">Pause Ride</string>
+    <string name="resume_ride">Resume Ride</string>
+    <string name="start_ride">Start Ride</string>
+    <string name="distance_travelled">Distance Travelled</string>
+    <string name="current_speed">Current Speed</string>
+    <string name="no_data">No data received</string>
+    <string name="go_home">Go home</string>
+    <string name="change_home">Update home address</string>
+    <string name="call">Call emergency contact</string>
+    <string name="change_phone">Update contact</string>
+    <string name="new_dest">Plot new route</string>
+    <string name="update_field">Enter updated information</string>
+    <string name="upload_ride">Upload log to server</string>
+    <string name="disclaimer">This app is not designed nor intended to provide real time navigation. It will not correct or change its route if you do not follow it. </string>
+    <string name="accept">Disclaimer Acknowledged</string>
+    <string name="API_KEY">AIzaSyBW8wVqoZ-Kwh0O1I-B2F1pU_Iuda7Qs7c</string>
+</resources>

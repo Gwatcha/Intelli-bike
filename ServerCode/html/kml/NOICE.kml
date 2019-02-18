@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>UBC Test</name>
+  <visibility>1</visibility>
+  <open>1</open>
+
+  <Folder id="Waypoints">
+    <visibility>1</visibility>
+
+    <Placemark>
+      <name>START</name>
+      <description>
+        <![CDATA[
+        <br>Coordinates<br> = 49.2617975, -123.2457876<br><br>Time = MM/DD-HR:MM:SS
+    ]]></description>
+
+      <Style>
+        <IconStyle>
+          <scale>1</scale>
+          <Icon>
+            <href>https://emojipedia-us.s3.amazonaws.com/thumbs/160/facebook/65/bicycle_1f6b2.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+
+      <Point>
+        <coordinates>-123.2457876,49.2617975,4023</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>FINISH</name>
+      <description>
+        <![CDATA[
+        coordinates = 49.2617975, -123.2457876<br>Time = MM/DD-HR:MM:SS<br><br>
+
+          <u><b>STATISTICS</b></u><br>
+          Distance Travelled: distance m<br><br>
+          Top Speed:          topspeed m/s   <br>
+          Average Speed:      avgspeed m/s <br><br>
+          Top Acceleration:   topaccel m/s^2<br><br>
+          Net Altitude Gain:  altnet   m <br>
+          Altitude Gain:      altgain  m <br>
+          Altitude Loss:      altloss  m<br><br>
+          Ride Time:          ridetime <br>
+         Total Time:         triptime <br>
+    ]]></description>
+      <Style>
+        <IconStyle>
+          <scale>2</scale>
+          <Icon>
+            <href>http://www.free-icons-download.net/images/checkered-flag-icon-91399.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-123.2477027,49.2594799,4000</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+
+  <Folder id="Tracks">
+    <name>Tracks</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="track">
+      <name><![CDATA[GPS data]]></name>
+      <visibility>1</visibility>
+      <description><![CDATA[&nbsp;]]></description>
+      <Placemark>
+        <name><![CDATA[<u><span style="color:#bfe600">MM:DD-HR:MM:SS</span></u>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          Distance:     distance m<br>
+          ]]>
+        </description>
+
+        <Style>
+          <LineStyle>
+            <color>ff00e6bf</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-123.2457876,49.2617975 -123.2447577,49.2605232 </coordinates>
+        </LineString>
+
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<u><span style="color:#bfe600">MM:DD-HR:MM:SS</span></u>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          Distance:     distance m<br>
+          ]]>
+        </description>
+        <Style>
+          <LineStyle>
+            <color>ff00e3e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-123.2447577,49.2605232 -123.2447577,49.2605232 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<u><span style="color:#bfe600">MM:DD-HR:MM:SS</span></u>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          Distance:     distance m<br>
+          ]]>
+        </description>
+        <Style>
+          <LineStyle>
+            <color>ff00e3e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-123.2447577,49.2605232 -123.2458574,49.2601661 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<u><span style="color:#bfe600">MM:DD-HR:MM:SS</span></u>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          Distance:     distance m<br>
+          ]]>
+        </description>
+
+        <Style>
+          <LineStyle>
+            <color>ff00a0e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-123.2458574,49.2601661 -123.2458574,49.2601661 </coordinates>
+        </LineString>
+      </Placemark>
+
+      <Placemark>
+        <name><![CDATA[<span style="color:#bfe600">MM:DD-HR:MM:SS</span>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          Distance:     distance m<br>
+          ]]>
+        </description>
+        <Style>
+          <LineStyle>
+            <color>ff00a0e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-123.2458574,49.2601661 -123.2468766,49.259802 </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Folder>
+</Document>
+</kml>

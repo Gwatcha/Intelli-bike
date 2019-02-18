@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KML for journey: 42</name>
+    <Folder id="Waypoints">
+      <Placemark>
+        <name>&lt;!CDATA[&lt;b&gt;&lt;div&gt; Journey logged_data Start&lt;/div&gt;&lt;/b&gt;</name>
+        <description>Coordinates :-123.246700, 49.261800</description>
+        <Style>
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <coordinates>-123.246700,49.261800,412</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>&lt;!CDATA[&lt;b&gt;&lt;div&gt; Journey logged_data End&lt;/div&gt;&lt;/b&gt;</name>
+        <description>&lt;!CDATA[Finish time: 	       2018-04-02 01:52:10&lt;br&gt;Coordinates:           -123.248100, 49.261800&lt;br&gt;Altitude:              412&lt;br&gt;&lt;br&gt;&lt;u&gt;&lt;b&gt;STATISTICS&lt;/b&gt;&lt;/u&gt;&lt;br&gt;Distance Travelled: 35.01 m&lt;br&gt;&lt;br&gt;Top Speed:          30.02 m/s   &lt;br&gt;Average Speed:      0 m/s &lt;br&gt;&lt;br&gt;Top Acceleration:   23.02 m/s^2&lt;br&gt;&lt;br&gt;Net Altitude Gain:  412 m </description>
+        <Style>
+          <IconStyle>
+            <scale>1</scale>
+            <Icon>
+              <href>https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/finish_flag-128.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <coordinates>-123.248100,49.261800,412</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <Folder id="TrackOne">
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:51:46&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        10.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:   1234  m&lt;br&gt;Distance:     0.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>8000daa4</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.246700,49.261800 -123.246700,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:51:47&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        30.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:     412 m&lt;br&gt;Distance:     5.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>80009211</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.246700,49.261800 -123.246900,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:51:48&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        2.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:     412 m&lt;br&gt;Distance:     10.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>8000f7ab</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.246900,49.261800 -123.247100,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:51:49&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        4.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:     412 m&lt;br&gt;Distance:     12.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>8000f069</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.247100,49.261800 -123.247300,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:51:51&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        5.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:     412 m&lt;br&gt;Distance:     15.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>8000ecc8</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.247300,49.261800 -123.247500,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:51:55&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        10.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:     412 m&lt;br&gt;Distance:     20.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>8000daa4</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.247500,49.261800 -123.247700,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:52:00&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        20.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:     412 m&lt;br&gt;Distance:     25.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>8000b65a</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.247700,49.261800 -123.247900,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name>&lt;!CDATA[&lt;u&gt;&lt;span style='color:#bfe600'&gt;2018-04-02 01:52:05&lt;/span&gt;&lt;/u&gt;</name>
+          <description>&lt;![CDATA[&lt;b&gt;&lt;div&gt; READINGS &lt;/div&gt;&lt;/b&gt;&lt;br&gt;Speed:        10.02 km/h&lt;br&gt;Acceleration: 23.02 m/s^2&lt;br&gt;Altitude:     412 m&lt;br&gt;Distance:     30.01 m</description>
+          <Style>
+            <LineStyle>
+              <color>8000daa4</color>
+              <width>3</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <coordinates>-123.247900,49.261800 -123.248100,49.261800 </coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

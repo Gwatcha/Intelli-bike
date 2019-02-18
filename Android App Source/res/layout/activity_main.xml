@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.ubc.zachrivard.self.test.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Start Location"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/start_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="leave blank to use current location"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/start_edittext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter End Location"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/end_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="leave blank to use current location"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/end_edittext"/>
+
+    <Button
+        android:id="@+id/go_button"
+        android:text="GO"
+        android:layout_below="@id/end_edittext"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

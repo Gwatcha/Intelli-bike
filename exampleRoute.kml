@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>GPS Visualizer data</name>
+		<Style id="waypoint">
+			<IconStyle>
+                                <Icon><href>
+                                https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+                                </href></Icon>
+			</IconStyle>
+			<BalloonStyle>
+                          <text><![CDATA[
+                          <font color="#CC0000" size="+3">$[name]</font>
+                          <br/><br/>
+                          $[description]
+                          <br/><br/>  
+                          Distance (m)     : <b>$[distance]</b> 
+                          <br/><br/>
+                          Speed    (m/s)   : <b>$[speed]</b>
+                          <br/><br/>  
+                          Accel.   (m/s^2) : <b>$[acceleration]</b>
+                          <br/><br/>  
+                          Altitude (m)     : <b>$[altitude]</b>
+                          ]]>
+                          </text>
+			</BalloonStyle>
+		</Style>
+		<Style id="track">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="polygon">
+			<LineStyle>
+				<color>ff9900ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>409900ff</color>
+				<colorMode>normal</colorMode>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>Waypoints</name>
+			<Placemark>
+				<name>Fassanish</name>
+				<description>Nicenicenice</description>
+				<styleUrl>#waypoint</styleUrl>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2460022,49.2606072</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2456160,49.2598790</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2451653,49.2593188</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2447791,49.2588707</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2440495,49.2579464</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2434273,49.2572462</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2429767,49.2565039</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2424831,49.2558457</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2418823,49.2550894</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2412815,49.2544172</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2426119,49.2536959</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2448006,49.2529536</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2459164,49.2525614</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2462811,49.2523793</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2465601,49.2524353</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2470322,49.2525614</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+                                <ExtendedData>
+                                    <Data name="distance">
+                                        <value>3.7</value>
+                                    </Data>
+                                    <Data name="speed">
+                                        <value>230</value>
+                                    </Data>
+                                    <Data name="acceleration">
+                                        <value>4000</value>
+                                    </Data>
+                                    <Data name="altitude">
+                                        <value>4000</value>
+                                    </Data>
+                                </ExtendedData>
+				<Style>
+					<IconStyle><color>ffff00ff</color></IconStyle>
+					<LabelStyle><color>ffff00ff</color></LabelStyle>
+				</Style>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2457769,49.2544697</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Tracks</name>
+			<Placemark>
+				<name></name>
+				<description>Length: 66.23 m (217.3 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<Style>
+					<LineStyle><color>ff00ff80</color><width>3</width></LineStyle>
+				</Style>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2456589,49.2598510 -123.2452512,49.2593188 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 166.6 m (546.6 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<Style>
+					<LineStyle><color>ff00ffff</color><width>3</width></LineStyle>
+				</Style>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2451653,49.2592908 -123.2441139,49.2579604 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 96.53 m (316.7 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<Style>
+					<LineStyle><color>ff00ffff</color><width>3</width></LineStyle>
+				</Style>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2440925,49.2579604 -123.2434273,49.2572462 -123.2434058,49.2572182 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 0.342 km (0.213 mi)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<Style>
+					<LineStyle><color>ff00ffff</color><width>3</width></LineStyle>
+				</Style>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2433629,49.2572182 -123.2413244,49.2544452 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 0.304 km (0.189 mi)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2412386,49.2544031 -123.2425690,49.2537169 -123.2448006,49.2530026 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 128.2 m (420.6 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<Style>
+					<LineStyle><color>ffcc00cc</color><width>3</width></LineStyle>
+				</Style>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2447577,49.2529746 -123.2460022,49.2525684 -123.2461309,49.2525194 -123.2462919,49.2524178 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 62.97 m (206.6 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<Style>
+					<LineStyle><color>ff00cc66</color><width>3</width></LineStyle>
+				</Style>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2462811,49.2523898 -123.2468712,49.2524493 -123.2470536,49.2525789 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 0.532 km (0.33 mi)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2470322,49.2526419 -123.2481641,49.2540495 -123.2465628,49.2532967 -123.2465775,49.2545169 -123.2457554,49.2544767 -123.2458091,49.2543926 -123.2458091,49.2544417 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

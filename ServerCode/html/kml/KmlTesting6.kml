@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>UBC Test</name>
+  <visibility>1</visibility>
+  <open>1</open>
+  <Snippet><![CDATA[created using <a href="http://www.gpsvisualizer.com/?ref=ge&time=20180329113856">GPS Visualizer</a>]]></Snippet>
+  <Style id="gv_legend">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/pal2/icon26.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="gv_waypoint_normal">
+    <IconStyle>
+      <color>ff000000</color>
+      <scale>1</scale>
+      <Icon>
+        <href>https://emojipedia-us.s3.amazonaws.com/thumbs/160/facebook/65/bicycle_1f6b2.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <color>ff000000</color>
+      <scale>1</scale>
+    </LabelStyle>
+    <BalloonStyle>
+      <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+    </BalloonStyle>
+  </Style>
+  <Style id="gv_waypoint_highlight">
+    <IconStyle>
+      <color>ff000000</color>
+      <scale>1.2</scale>
+      <Icon>
+        <href>https://emojipedia-us.s3.amazonaws.com/thumbs/160/facebook/65/bicycle_1f6b2.png</href>
+      </Icon>
+      <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+    </IconStyle>
+    <LabelStyle>
+      <color>ff000000</color>
+      <scale>1</scale>
+    </LabelStyle>
+    <BalloonStyle>
+      <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
+    </BalloonStyle>
+  </Style>
+  <Style id="gv_track">
+    <LineStyle>
+      <color>ff0000e6</color>
+      <width>4</width>
+    </LineStyle>
+    <BalloonStyle>
+      <text>Bleh</text>
+    </BalloonStyle>
+  </Style>
+  <StyleMap id="gv_waypoint">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#gv_waypoint_normal</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#gv_waypoint_highlight</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Folder id="Waypoints">
+    <name>Waypoints</name>
+    <visibility>1</visibility>
+    <Placemark>
+      <name>11/18-23:42:04</name>
+      <description><![CDATA[coordinates          = 49.2617975, -123.2457876<br>distance(m)         = 0<br>speed(km/h)          = 20.2<br>altitude(m)          = 4023<br>acceleration(m/s^2)  = 14.2]]></description>
+      <styleUrl>#gv_waypoint</styleUrl>
+      <Style>
+        <IconStyle>
+          <color>ff222222</color>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff000000</color>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-123.2457876,49.2617975,4023</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11/18-23:42:04</name>
+      <description><![CDATA[coordinates          = 49.2605232, -123.2447577<br>distance(m)         = 0.015<br>speed(km/h)          = 23.2<br>altitude(m)          = 4023<br>acceleration(m/s^2)  = 10]]></description>
+      <styleUrl>#gv_waypoint</styleUrl>
+      <Style>
+        <IconStyle>
+          <color>ff222222</color>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff000000</color>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-123.2447577,49.2605232,4023</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11/18-23:42:04</name>
+      <description><![CDATA[coordinates          = 49.2601661, -123.2458574<br>distance(m)         = 0.03<br>speed(km/h)          = 13.1<br>altitude(m)          = 4028<br>acceleration(m/s^2)  = 10]]></description>
+      <styleUrl>#gv_waypoint</styleUrl>
+      <Style>
+        <IconStyle>
+          <color>ff222222</color>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff000000</color>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-123.2458574,49.2601661,4028</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11/18-23:42:04</name>
+      <description><![CDATA[coordinates          = 49.259802, -123.2468766<br>distance(m)         = 0.05<br>speed(km/h)          = 14.5<br>altitude(m)          = 4021<br>acceleration(m/s^2)  = 10]]></description>
+      <styleUrl>#gv_waypoint</styleUrl>
+      <Style>
+        <IconStyle>
+          <color>ff222222</color>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff000000</color>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-123.2468766,49.259802,4021</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11/18-23:42:04h</name>
+      <description><![CDATA[coordinates          = 49.2594799, -123.2477027<br>distance(m)         = 0.6<br>speed(km/h)          = 5.1<br>altitude(m)          = 4000<br>acceleration(m/s^2)  = 10]]></description>
+      <styleUrl>#gv_waypoint</styleUrl>
+      <Style>
+        <IconStyle>
+          <color>ff222222</color>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff000000</color>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-123.2477027,49.2594799,4000</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder id="Legend">
+    <name>Legend: Speed (km/h)</name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <Placemark>
+      <name><![CDATA[<span style="color:#e60000;"><b>60.0</b></span>]]></name>
+      <visibility>1</visibility>
+      <styleUrl>#gv_legend</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[<span style="color:#e65600;"><b>45.0</b></span>]]></name>
+      <visibility>1</visibility>
+      <styleUrl>#gv_legend</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[<span style="color:#e6ac00;"><b>30.0</b></span>]]></name>
+      <visibility>1</visibility>
+      <styleUrl>#gv_legend</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[<span style="color:#c9e600;"><b>15.0</b></span>]]></name>
+      <visibility>1</visibility>
+      <styleUrl>#gv_legend</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[<span style="color:#73e600;"><b>0.0</b></span>]]></name>
+      <visibility>1</visibility>
+      <styleUrl>#gv_legend</styleUrl>
+    </Placemark>
+  </Folder>
+  <Folder id="Tracks">
+    <name>Tracks</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="track">
+      <name><![CDATA[GPS data]]></name>
+      <visibility>1</visibility>
+      <Snippet></Snippet>
+      <description><![CDATA[&nbsp;]]></description>
+      <Placemark>
+        <name><![CDATA[<span style="color:#bfe600">MM:DD-HR:MM:SS</span>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          <b>STATISTICS</b><br><br>
+          Distance Travelled: distance m<br>
+          Top Speed:          topspeed m/s   <br>
+          Top Acceleration:   topaccel m/s^2<br>
+          Altitude Gain:      altgain m <br>
+          Altitude Loss:      altloss m<br>
+          Ride Time:          ridetime <br>
+          ]]>
+        </description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff00e6bf</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.2457876,49.2617975 -123.2447577,49.2605232 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#bfe600">MM:DD-HR:MM:SS</span>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          <b>STATISTICS</b><br><br>
+          Distance Travelled: distance m<br>
+          Top Speed:          topspeed m/s   <br>
+          Top Acceleration:   topaccel m/s^2<br>
+          Altitude Gain:      altgain m <br>
+          Altitude Loss:      altloss m<br>
+          Ride Time:          ridetime <br>
+          ]]>
+        </description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff00e3e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.2447577,49.2605232 -123.2447577,49.2605232 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#bfe600">MM:DD-HR:MM:SS</span>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br>
+          <b>STATISTICS</b><br><br>
+          Distance Travelled: distance m<br>
+          Top Speed:          topspeed m/s   <br>
+          Top Acceleration:   topaccel m/s^2<br>
+          Altitude Gain:      altgain m <br>
+          Altitude Loss:      altloss m<br>
+          Ride Time:          ridetime <br>
+          ]]>
+        </description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff00e3e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.2447577,49.2605232 -123.2458574,49.2601661 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#bfe600">MM:DD-HR:MM:SS</span>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br><br>
+          <b>STATISTICS</b><br>
+          Distance Travelled: distance m<br>
+          Top Speed:          topspeed m/s   <br>
+          Top Acceleration:   topaccel m/s^2<br>
+          Altitude Gain:      altgain m <br>
+          Altitude Loss:      altloss m<br>
+          Ride Time:          ridetime <br>
+          ]]>
+        </description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff00a0e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.2458574,49.2601661 -123.2458574,49.2601661 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#bfe600">MM:DD-HR:MM:SS</span>]]></name>
+        <description>
+          <![CDATA[
+          <b>READINGS</b><br>
+          Speed:        speed km/h<br>
+          Acceleration: acceleration m/s^2<br>
+          Altitude:     altitude m<br><br>
+          <b>STATISTICS</b><br>
+          Distance Travelled: distance m<br>
+          Top Speed:          topspeed m/s   <br>
+          Top Acceleration:   topaccel m/s^2<br>
+          Altitude Gain:      altgain m <br>
+          Altitude Loss:      altloss m<br>
+          Ride Time:          ridetime <br>
+          ]]>
+        </description>
+        <styleUrl>#gv_track</styleUrl>
+        <Style>
+          <LineStyle>
+            <color>ff00a0e6</color>
+            <width>4</width>
+          </LineStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.2458574,49.2601661 -123.2468766,49.259802 </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Folder>
+</Document>
+</kml>

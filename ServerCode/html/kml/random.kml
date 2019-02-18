@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+	<Document>
+		<name>GPS Visualizer data</name>
+		<Style id="waypoint">
+			<IconStyle>
+				<color>ffffffff</color>
+				<scale>1</scale>
+				<Icon><href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href></Icon>
+				<hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id="track">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="polygon">
+			<LineStyle>
+				<color>ff9900ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>409900ff</color>
+				<colorMode>normal</colorMode>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>Waypoints</name>
+			<Placemark>
+				<name>Start</name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2457876,49.2617975</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2</name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2447577,49.2605232</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3</name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2458574,49.2601661</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4</name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2468766,49.2598020</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Finish</name>
+				<description></description>
+				<styleUrl>#waypoint</styleUrl>
+				<Point>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>-123.2477027,49.2594799</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Tracks</name>
+			<Placemark>
+				<name></name>
+				<description>Length: 80.65 m (264.6 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2459164,49.2601661 -123.2468498,49.2597739 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 90.29 m (296.2 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2447147,49.2605302 -123.2458198,49.2601591 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 67.24 m (220.6 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2469141,49.2598160 -123.2476759,49.2594729 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name></name>
+				<description>Length: 160.8 m (527.6 ft)</description>
+				<visibility>1</visibility>
+				<styleUrl>#track</styleUrl>
+				<LineString>
+					<extrude>0</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampedToGround</altitudeMode>
+					<coordinates>
+						-123.2458735,49.2617905 -123.2446504,49.2605862 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>
