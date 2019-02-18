@@ -1,7 +1,5 @@
-# G18_B_P2
+# IntelliBike
 
-What has been done server-side
-------
-+ apache2 has been installed
-+ ufw has been enabled
+See the report for details on this project.
+
 
