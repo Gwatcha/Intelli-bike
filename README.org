@@ -1,0 +1,35 @@
+* IntelliBike
+The IntelliBike incorporates three main functionalities: a security system to prevent the bike from
+being stolen, a safety system to keep the rider safe on the road, and a data logging system to
+keep track of all the rides and rider statistics. By combining all of these systems into a single
+project, the IntelliBike aims to provide users with an enjoyable and safe alternative to driving
+and public transit.
+
+The logging system makes use of an Android App which, on ride finish, uploads
+data to a web server. A map of a users ride may then be found online, as well as ride statistics.
+
+** Android Mobile App
+The mobile app serves to display a map for the user, as well as upload logged sensor data to
+the web server on ride finish.
+
+[[./img/README_2019_04_15__21:51:25.png]]
+
+** Web server
+The web server maintains a MySql database of IntelliBike users, and displays all
+the 'routes' they have tracked. It also supplies rider statistics for users.
+[[./img/README_2019_04_15__21:52:51.png]]
+** Hardware 
+The IntelliBike was powered by a master Raspberry Pi which controlled various
+peripherals including a slave Arduino. The Arduino powered an OLED screen which
+displayed instantaneous acceleration, velocity, temperature, altitude, and a
+very pretty boot up animation.
+
+[[file:img/intelli-bike.jpg][OLED]]
+
+[[./img/README_2019_04_15__21:55:10.png]]
+[[./img/README_2019_04_15__21:53:50.png]]
+
+[[./img/README_2019_04_15__22:13:14.png]]
+
+
+See the full report for more details.
