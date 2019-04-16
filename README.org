@@ -23,12 +23,15 @@ The security system would allow a user to lock the bike, hence the Keypad and
 LCD screen. If a robber were to try to get away with the locked bike, the
 security system would set off a very loud alarm.
 
-[[file:img/intelli-bike.png][Bike]]
 
-[[./img/README_2019_04_15__21:55:10.png]]
-[[./img/README_2019_04_15__21:53:50.png]]
+[[file:img/intelli-bike.png]]
 
 [[./img/README_2019_04_15__22:13:14.png]]
+
+[[./img/README_2019_04_15__21:55:10.png]]
+
+[[./img/README_2019_04_15__21:53:50.png]]
+
 
 
 See the full report for more details.
