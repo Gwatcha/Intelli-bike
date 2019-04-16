@@ -18,11 +18,11 @@ The Bike safety system would:
 1. turn on lights when the ambient light sensor was below a threshold
 2. notify the mobile phone in case of quick acceleration
 3. automatically turning on brake lights on brake handle press,
+4. turn on turn signals 
 
 The security system would allow a user to lock the bike, hence the Keypad and
 LCD screen. If a robber were to try to get away with the locked bike, the
 security system would set off a very loud alarm.
-
 
 [[file:img/intelli-bike.png]]
 
