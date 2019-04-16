@@ -16,13 +16,24 @@ the web server on ride finish.
 
 ** Web server
 The web server maintains a MySql database of IntelliBike users, and displays all
-the 'routes' they have tracked. It also supplies rider statistics for users.
+the 'routes' they have tracked online. It also supplies rider statistics for users.
+
 [[./img/README_2019_04_15__21:52:51.png]]
-** Hardware 
+
+** Bike 
 The IntelliBike was powered by a master Raspberry Pi which controlled various
 peripherals including a slave Arduino. The Arduino powered an OLED screen which
 displayed instantaneous acceleration, velocity, temperature, altitude, and a
 very pretty boot up animation.
+
+The Bike safety system would:
+1. turn on lights when the ambient light sensor was below a threshold
+2. notify the mobile phone in case of quick acceleration
+3. automatically turning on brake lights on brake handle press,
+
+The security system would allow a user to lock the bike, hence the Keypad and
+LCD screen. If a robber were to try to get away with the locked bike, the
+security system would set off a very loud alarm.
 
 [[file:img/intelli-bike.jpg][OLED]]
 
